@@ -21,15 +21,6 @@
 			<version>2.3.1</version>
 			<scope>provided</scope>
 		</dependency>
-
-
-		<!-- Unit Test -->
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>${junit.version}</version>
-		</dependency>
-
 	</dependencies>
 
 	<build>
@@ -58,22 +49,11 @@
 			</plugin>			
 		</plugins>
 	</build>
-<distributionManagement>
+	<distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
         <name>devops-training-snapshots</name>
         <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
-<reporting>
-    		<plugins>
-			 <plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>cobertura-maven-plugin</artifactId>
-				<version>2.7</version>
-		      </plugin>
-	    </plugins>
-	  </reporting>
-
-
 </project>
