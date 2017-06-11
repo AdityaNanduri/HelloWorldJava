@@ -156,5 +156,13 @@
 </plugins>
 
 </reporting>
+  
+  <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>devops-training-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
 
 </project><?xml version="1.0"?>
